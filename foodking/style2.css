@@ -1,0 +1,303 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    width: 100%;
+    margin: auto;
+   
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-image: url(images/menu-bg.jpg);
+   
+}
+.header img{
+    width: 100%;
+    height: 100%;
+    
+}
+.logo{
+    height: 100%;
+    width: 25%;
+  
+    float: left;
+
+}
+.logo img{
+    width:100px;
+    height: 50px;
+    margin-left: 50px;
+    margin-top: 10px;
+
+}
+.nav{
+    width: 75%;
+    height: 100%;
+   
+    float: right;
+}
+.nav ul{
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    margin-left: 500px;
+    margin-top: 10px;
+}
+.nav ul li{
+       float: left;
+       
+}
+.nav ul li a{
+    text-decoration: none;
+    display: flex;
+    padding: 10px 10px 10px 10px;
+    color: white;
+   
+}
+.nav ul li a:hover{
+    color: blueviolet;
+}
+
+.articale{
+    width: 100%;
+   height: 100px;
+   background-color: #ebebeb;
+    
+
+
+}
+.heading{
+    width: 100%;
+    height: 100%;
+}
+
+.dot {
+    height: 40px;
+    width: 40px;
+   
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 40px;
+    
+    
+  }
+  .dot:hover{
+    background-color: orangered;
+  }
+  .dot h4{
+    text-align: center;
+    margin-top: 30%;
+  }
+  .dot1 {
+    height: 40px;
+    width: 40px;
+    background-color: orangered;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 400px;
+    
+    
+  }
+  
+  .dot1 h4{
+    text-align: center;
+    margin-top: 30%;
+  }
+
+  .dot2 {
+    height: 40px;
+    width: 40px;
+    background-color: #bbb;
+    border-radius: 50%;
+    display: inline-block;
+    margin-top: 20px;
+    margin-left: 300px;
+    
+    
+  }
+  .dot2:hover{
+    background-color: orangered;
+  }
+  .dot2 h4{
+    text-align: center;
+    margin-top: 30%;
+  }
+
+  .poster{
+    width: 100%;
+    height: 300px;
+    background-image: url(images/img/restrrr.png);
+    position: absolute;
+    display: flex;
+    background-size: cover;
+    background-position: center;
+}
+
+.poster1{
+    width: 200px;
+    height: 200px;
+    background-color: white;
+    margin-top: 30px;
+    margin-left: 80px;
+    position: relative;
+    
+}
+.poster1 img{
+    width: 90%;
+    height: 90%;
+    background-size: cover;
+    background-position: center;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+.poster2 p{
+    
+    
+   
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+    font-size: 18px;
+}
+
+.poster2 h3{
+    
+    
+   
+    margin-top: 30px;
+    margin-left: 80px;
+    color: white;
+    font-size: 36px;
+}
+
+.addCart{
+    width: 100%;
+    margin-top: 400px;
+
+    display: flex;
+
+  
+
+
+
+}
+.item{
+    width: 65%;
+ 
+    
+    display: grid;
+    grid-template-rows: repeat(3,1fr);
+    grid-template-columns: repeat(3,1fr);
+    column-gap: 12px;
+    row-gap: 12px;
+   
+    
+}
+.item1{
+    width: 250px;
+    height: 300px;
+    border: 1px solid #ebebeb;
+    margin-top: 10px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+}
+.item1 .img{
+    width: 150px;
+    height: 150px;
+    
+    margin-left: 30px;
+    margin-top: 10px;
+
+}
+.item1 .img img{
+    width: 100%;
+    height: 100%;
+}
+.item1 p{
+    margin-top: 10px;
+    margin-left: 10px;
+    font-size: 16px;
+}
+.item1 button{
+    margin-top: 10px;
+    margin-left: 40px;
+    padding: 10px 10px;
+}
+
+.cart{
+    width: 35%;
+    
+  
+   
+   
+}
+.cart button{
+    margin-top: 10px;
+    margin-left: 150px;
+    padding: 10px 10px;
+    align-items: center;
+    text-align: center;
+}
+ .cart .cart1{
+    width: 95%;
+    margin-top: 10px;
+    border: 1px solid #ebebeb;
+    align-items: center;
+    text-align: center;
+    
+
+
+}
+.cart .cart1 ul{
+    list-style: none;
+}
+.cart .cart1 h2{
+    color: red;
+}
+.cart .cart-item{
+    width: 95%;
+    border: 1px solid #ebebeb;
+    padding: 10px;
+    display: flex;
+    margin-top: 10px;
+}
+.cart-item-img{
+    width: 50px;
+    height: 50px;
+  
+}
+.cart-item-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 50%;
+ 
+  
+}
+.cart-item-details p{
+  margin-left: 60px;
+  margin-top: 5px;
+ 
+}
+.cart-item-details button{
+    margin-left: 60px;
+    margin-top: 10px;
+    padding: 5px 5px;
+   
+  }
+.footer{
+    width: 100%;
+    height: 80px;
+    background-color: black;
+}
+.footer p{
+    color: white;
+    padding-top: 40px;
+    text-align: center;
+}
+
